@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antarmuka Web Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+            color: white;
+        }
+        .container {
+            padding: 20px;
+        }
+        .main-content {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Selamat Datang di Web Alandi Ustani</h1>
+    </header>
+
+    <!-- Navigasi -->
+    <nav>
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#services">Layanan</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <!-- Konten Utama -->
+    <div class="container">
+        <div class="main-content">
+            <h2>Beranda</h2>
+            <p>Ini adalah bagian beranda dari antarmuka web saya. Di sini Anda dapat menambahkan konten yang relevan dengan tujuan situs Anda.</p>
+        </div>
+
+        <div class="main-content">
+            <h2>Tentang Kami</h2>
+            <p>Bagian ini berisi informasi tentang perusahaan atau diri Anda. Jelaskan siapa Anda dan apa yang Anda lakukan.</p>
+        </div>
+
+        <div class="main-content">
+            <h2>Layanan Kami</h2>
+            <p>Di sini Anda dapat menampilkan layanan atau produk yang Anda tawarkan. Berikan deskripsi singkat untuk setiap layanan.</p>
+        </div>
+
+        <div class="main-content">
+            <h2>Kontak</h2>
+            <p>Bagian ini berisi informasi kontak seperti alamat email, nomor telepon, atau formulir kontak.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Web Saya. Semua Hak Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
